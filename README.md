@@ -1,2 +1,2 @@
 # EDA_MySQL
-Exploratory Data Analysis | MySQL | Data Cleaning
+Exploratory Data Analysis using MySQL | Data Cleaning
