@@ -6,7 +6,7 @@ from layoffs_staging2;
 select company, total_laid_off, percentage_laid_off
 from layoffs_staging2
 order by total_laid_off DESC
-LIMIT 2;
+LIMIT 3;
 
 select *
 from layoffs_staging2
@@ -86,3 +86,29 @@ from layoffs_staging2
 where percentage_laid_off = '1'
 order by total_laid_off DESC
 LIMIT 3;
+
+select percentage_laid_off, funds_raised_millions, stage
+from layoffs_staging2
+where stage = 'series A'
+order by 2 DESC;
+
+select stage, percentage_laid_off
+from layoffs_staging2
+where stage = 'Series D' or stage = 'Post-IPO';
+
+WITH industry_layoffs AS (
+    SELECT 
+        industry,
+        SUM(total_laid_off) AS total_laid_off
+    FROM layoffs_staging2
+    GROUP BY industry
+)
+SELECT *
+FROM industry_layoffs
+ORDER BY total_laid_off DESC;
+
+SELECT country, SUM(total_laid_off) AS total_laid_off
+FROM layoffs_staging2
+GROUP BY country
+ORDER BY total_laid_off DESC
+LIMIT 5;
