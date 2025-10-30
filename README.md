@@ -55,13 +55,15 @@ Rolling Cumulative Layoffs (Monthly Trend)
 
   <img width="270" height="390" alt="Screenshot 2025-10-30 145939" src="https://github.com/user-attachments/assets/67a365a5-df2f-4221-9f83-9348f18cfa4f" />  
 
-  **Country Level - Analysis:**
-"The United States experienced the highest number of layoffs globally, with over 256,000 employees affected, followed by India with nearly 36,000. European countries like the Netherlands and Sweden, along with Brazil, also faced notable layoffs but on a smaller scale. This indicates that while large markets like the US and India bore the brunt of workforce reductions, layoffs were a global phenomenon impacting both mature and emerging economies."  
+**Country Level - Analysis:**  
 
-  <img width="302" height="152" alt="image" src="https://github.com/user-attachments/assets/87dbb1ee-2c19-493b-9767-c404bbaa6069" />
+_The United States experienced the highest number of layoffs globally, with over 256,000 employees affected, followed by India with nearly 36,000. European countries like the Netherlands and Sweden, along with Brazil, also faced notable layoffs but on a smaller scale. This indicates that while large markets like the US and India bore the brunt of workforce reductions, layoffs were a global phenomenon impacting both mature and emerging economies._  
 
-  **Business Takeaway:**  
-"Companies and investors should interpret this trend as a signal to prioritize operational efficiency and risk management. Markets with higher layoffs may indicate sectors under pressure, presenting both cautionary signs for investment and potential opportunities for strategic acquisitions or talent acquisition at scale."  
+  <img width="302" height="152" alt="image" src="https://github.com/user-attachments/assets/87dbb1ee-2c19-493b-9767-c404bbaa6069" />  
+
+**Business Takeaway:**
+ 
+_Companies and investors should interpret this trend as a signal to prioritize operational efficiency and risk management. Markets with higher layoffs may indicate sectors under pressure, presenting both cautionary signs for investment and potential opportunities for strategic acquisitions or talent acquisition at scale._  
 
 
  
