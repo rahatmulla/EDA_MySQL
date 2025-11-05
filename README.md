@@ -30,7 +30,9 @@ Google : 0.06% (~12000 employees laid off)
 Meta: 0.13% (~11000 employees laid off)  
 Amazon: 0.03% (~10000 employees laid off)    
 
-<img width="376" height="112" alt="image" src="https://github.com/user-attachments/assets/845c15d0-90cd-4f77-aabf-cec82332b882" />  
+<img width="576" height="212" alt="image" src="https://github.com/user-attachments/assets/845c15d0-90cd-4f77-aabf-cec82332b882" />  
+<img width="472" height="516" alt="image" src="https://github.com/user-attachments/assets/a182cac1-dba4-4204-93a8-08fe71330087" />  
+
 
  
 •	Some companies like (Airlift, Amplero) even laid off 100% of their staff, indicating closures or major restructuring. 
@@ -40,7 +42,7 @@ Amazon: 0.03% (~10000 employees laid off)
  
 •	Industry Insights: Consumer, Retail, and transportation were among the sectors that experienced the highest layoffs, showing vulnerability to market and funding fluctuations.  
 
-<img width="605" height="634" alt="image" src="https://github.com/user-attachments/assets/cc6e41a6-97b1-49cd-a1a2-ad936283bd7c" />  
+<img width="505" height="534" alt="image" src="https://github.com/user-attachments/assets/cc6e41a6-97b1-49cd-a1a2-ad936283bd7c" />  
 
  
 •	Many companies at Series D or IPO stage reported layoffs, showing that even well-funded or public firms faced scaling pressures. 
@@ -53,13 +55,18 @@ Rolling Cumulative Layoffs (Monthly Trend)
 - A sharp increase is visible between April 2020 and December 2020, indicating mass layoffs during the early pandemic phase.  
 - After mid-2021, the curve flattens, showing reduced layoffs and market stabilization.  
 
-  <img width="270" height="390" alt="Screenshot 2025-10-30 145939" src="https://github.com/user-attachments/assets/67a365a5-df2f-4221-9f83-9348f18cfa4f" />  
+  <img width="270" height="390" alt="Screenshot 2025-10-30 145939" src="https://github.com/user-attachments/assets/67a365a5-df2f-4221-9f83-9348f18cfa4f" />   
+- Yearly Trend
+     
+  <img width="602" height="317" alt="image" src="https://github.com/user-attachments/assets/af1ec01f-4704-4ad0-b0ed-21aa8364c1a6" />
+  
 
 **Country Level - Analysis:**  
 
-_The United States experienced the highest number of layoffs globally, with over 256,000 employees affected, followed by India with nearly 36,000. European countries like the Netherlands and Sweden, along with Brazil, also faced notable layoffs but on a smaller scale. This indicates that while large markets like the US and India bore the brunt of workforce reductions, layoffs were a global phenomenon impacting both mature and emerging economies._  
+The United States experienced the highest number of layoffs globally, with over 256,000 employees affected, followed by India with nearly 36,000. European countries like the Netherlands and Sweden, along with Brazil, also faced notable layoffs but on a smaller scale. This indicates that while large markets like the US and India bore the brunt of workforce reductions, layoffs were a global phenomenon impacting both mature and emerging economies. 
 
-  <img width="302" height="152" alt="image" src="https://github.com/user-attachments/assets/87dbb1ee-2c19-493b-9767-c404bbaa6069" />  
+  <img width="495" height="252" alt="image" src="https://github.com/user-attachments/assets/de328022-aab8-4c76-b04c-0f524d9e61ca" />  
+    <img width="302" height="192" alt="image" src="https://github.com/user-attachments/assets/87dbb1ee-2c19-493b-9767-c404bbaa6069" />  
 
 **Business Takeaway:**
  
@@ -69,4 +76,5 @@ _Companies and investors should interpret this trend as a signal to prioritize o
  
 
 **Tools & Techniques:**     
-SQL (CTEs, window functions, aggregations), data cleaning, trend analysis, and insights extraction
+SQL (CTEs, window functions, aggregations), data cleaning, trend analysis, and insights extraction  
+Excel for Data Visualization
