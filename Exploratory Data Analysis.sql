@@ -58,6 +58,7 @@ WITH DATE_CTE AS
 (
 SELECT SUBSTRING(date,1,7) as dates, SUM(total_laid_off) AS total_laid_off
 FROM layoffs_staging2
+where SUBSTRING(date,1,7) is not Null
 GROUP BY dates
 ORDER BY dates ASC
 )
@@ -71,26 +72,23 @@ from layoffs_staging2
 group by YEAR
 order by YEAR;
 
-WITH ROLLING_TOTAL AS
-(
-select SUBSTRING(date,1,4) AS YEAR, sum(total_laid_off)  AS TOTAL_OFF
-from layoffs_staging2
-group by YEAR
-order by YEAR
+WITH ROLLING_TOTAL AS (
+    SELECT 
+        SUBSTRING(date, 1, 4) AS YEAR,
+        SUM(total_laid_off) AS TOTAL_OFF
+    FROM layoffs_staging2
+    WHERE SUBSTRING(date, 1, 4) IS NOT NULL   
+    GROUP BY YEAR
+    ORDER BY YEAR
 )
-SELECT YEAR, sum(total_off) OVER(ORDER BY YEAR) AS rolling_total
-from ROLLING_TOTAL;
+SELECT YEAR, SUM(TOTAL_OFF) OVER (ORDER BY YEAR) AS rolling_total
+FROM ROLLING_TOTAL;
 
-select *
+select company, total_laid_off
 from layoffs_staging2
 where percentage_laid_off = '1'
 order by total_laid_off DESC
 LIMIT 3;
-
-select percentage_laid_off, funds_raised_millions, stage
-from layoffs_staging2
-where stage = 'series A'
-order by 2 DESC;
 
 select stage, percentage_laid_off
 from layoffs_staging2
