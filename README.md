@@ -1,4 +1,4 @@
-# Exploratory Data Analysis using MySQL | Data Cleaning  
+# Exploratory Data Analysis using MySQL | Data Cleaning & Visualisation  
 ## Dataset: Global Layoffs  
 ### Timeline & Data: March 2020 – March 2023  
 **Project Overview:** 
